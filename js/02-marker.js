@@ -8,7 +8,7 @@
 // Продемонстрировать работу написанных методов. 
 
 class Marker {
-    fill = '';
+    //fill = '';
     constructor(color, fill) {
         this.color = color;
         fill > 100 ? fill = 100 : fill;
@@ -27,6 +27,7 @@ class Marker {
                 p.innerText += text[i];
             }
             if (left < 5 ) {
+                console.log(p.innerText);
                 break;
             }
         }
